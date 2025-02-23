@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp">
+
+    <!-- Habit name -->
+
+    <!-- Streak -->
+
+    <!-- Mark as completed button -->
+
+    <TextView
+        android:id="@+id/habitNameTextView"
+        android:layout_width="99dp"
+        android:layout_height="39dp"
+        android:layout_weight="1"
+        android:text="Habit Name"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/habitStreakTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="Streak: 0"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/markDoneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark as Completed"
+        android:background="?android:attr/selectableItemBackground" />
+
+</LinearLayout>
