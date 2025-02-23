@@ -1,0 +1,25 @@
+{
+  "message": "Hello, World!",
+  "users": {
+    "bJEyjQ0JHQVCr55JDkySTmNL9Ar1": {
+      "habits": {
+        "Drinking 2L of Water": true,
+        "Healthy Eating": true,
+        "Journaling": true
+      }
+    },
+    "kQ6PaeGeSZb9FWHlKDcZ1vsgpJs2": {
+      "habits": {
+        "Drinking 2L of Water": true,
+        "Learning to Code": true
+      }
+    },
+    "vlroXpj1deaAsM2rJ6hsTE1Nrxt1": {
+      "habits": {
+        "Drinking 2L of Water": true,
+        "Healthy Eating": true,
+        "Journaling": true
+      }
+    }
+  }
+}
